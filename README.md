@@ -1,5 +1,3 @@
-Here's a professional README.md file with proper formatting and emojis for your public GitHub repository:
-
 # 🎤 AI Voice Replacement Frontend Application
 
 A **simple and elegant** frontend application with AI voice replacement interface, containerized with **Docker** and orchestrated with **Kubernetes**.
