@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Replacement</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Voice Replacement</h1>
+        
+        <div class="voice-controls">
+            <button id="startRecord" class="btn">Start Recording</button>
+            <button id="stopRecord" class="btn" disabled>Stop Recording</button>
+            <button id="playAudio" class="btn" disabled>Play Original</button>
+            <button id="transformVoice" class="btn" disabled>Transform Voice</button>
+        </div>
+
+        <div class="status">
+            <p id="status">Ready to record</p>
+        </div>
+
+        <div class="audio-controls">
+            <h3>Original Audio:</h3>
+            <audio id="originalAudio" controls></audio>
+            
+            <h3>Transformed Audio:</h3>
+            <audio id="transformedAudio" controls></audio>
+        </div>
+
+        <div class="voice-options">
+            <label for="voiceType">Select Voice Style:</label>
+            <select id="voiceType">
+                <option value="robot">Robot</option>
+                <option value="deep">Deep Voice</option>
+                <option value="chipmunk">Chipmunk</option>
+                <option value="echo">Echo</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
